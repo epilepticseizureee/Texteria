@@ -1,0 +1,4 @@
+name: Texteria
+version: '${project.version}'
+main: touchable.Texteria
+authors: [ Touchable ]
