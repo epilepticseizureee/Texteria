@@ -19,6 +19,7 @@ public class TextClock extends Text {
         this.tz = tz;
     }
 
+
     @Override
     public ByteMap write(@NonNull ByteMap map) {
         map.put("tz", tz.getID());
